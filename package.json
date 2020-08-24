@@ -1,0 +1,25 @@
+{
+  "name": "chat-caching-proxy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tgjmjgj/chat-caching-proxy.git"
+  },
+  "author": "Pavel Karpovich",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tgjmjgj/chat-caching-proxy/issues"
+  },
+  "homepage": "https://github.com/Tgjmjgj/chat-caching-proxy#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-request-proxy": "^2.2.2",
+    "redis": "^3.0.2",
+    "redis-streams": "^1.1.0"
+  }
+}
