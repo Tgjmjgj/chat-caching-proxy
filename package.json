@@ -17,9 +17,9 @@
   },
   "homepage": "https://github.com/Tgjmjgj/chat-caching-proxy#readme",
   "dependencies": {
+    "apicache": "^1.5.3",
     "express": "^4.17.1",
-    "express-request-proxy": "^2.2.2",
-    "redis": "^3.0.2",
+    "express-http-proxy": "^1.6.2",
     "redis-streams": "^1.1.0"
   }
 }
