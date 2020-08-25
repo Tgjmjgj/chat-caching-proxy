@@ -1,27 +1,9 @@
 const express = require('express');
 const http  = require('http')
-const redis = require('redis');
-const requestProxy = require('express-request-proxy');
 const proxy = require('express-http-proxy');
 const apicache = require('apicache');
 
 const app = express();
-
-// app.all(
-//   '/clientweb/api/v1/*',
-//   requestProxy({
-//     cacheMaxAge: 300,
-//     url: 'https://ocean08.brightpattern.com/clientweb/api/v1/*',
-//   }),
-// );
-
-// app.get(
-//     '/*',
-//     requestProxy({
-//         cacheMaxAge: 300,
-//         url: 'https://surflychat.web.app/*',
-//     }),
-// );
 
 const cache = apicache.middleware;
 apicache.options({
